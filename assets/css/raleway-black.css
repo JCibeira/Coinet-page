@@ -1,0 +1,12 @@
+/*****************************
+ All rights reserved.
+ AllFont.ru (c) 2011-2015
+ *****************************/
+@font-face {
+    font-family: 'Raleway Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway Black'), local('Raleway-Black'),
+        url(http://allfont.ru/cache/fonts/raleway-black_ce3a11ac80db201d923f6f93c38ab00f.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/raleway-black_ce3a11ac80db201d923f6f93c38ab00f.ttf) format('truetype');
+}

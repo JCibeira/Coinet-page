@@ -1,0 +1,25 @@
+/* start coinet-proyects styles */
+
+	#coinet-proyects
+	{
+		background-image: url('../img/row-proyectos.png');
+		min-height: 617px;
+	}
+
+	.text-container-hover-proyect
+	{
+		top: 30%;
+		left: 3%;
+	}
+
+	.rewool-text 
+	{
+		font-family: 'Raleway', arial;
+		font-size: 16px;
+		line-height: 1.19;
+		letter-spacing: -0.4px;
+		color: #cfcfcf;
+		text-align:justify;
+	}
+
+/* end coinet-proyects styles */

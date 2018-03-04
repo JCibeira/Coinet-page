@@ -1,0 +1,192 @@
+/* start body styles */
+	
+	html 
+	{
+		position: relative;
+		min-height: 100%;
+	}
+
+	body 
+	{
+		font-family: 'Raleway';
+		overflow-x: hidden;
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+	.main 
+	{
+		flex: 1 0 auto;
+	}
+
+/* end body styles */
+
+
+/* start margin styles */
+
+	.marin-top-0
+	{
+		margin-top: 0;
+	}
+
+	.margin-top-min
+	{
+		margin-top: 3%;
+	}
+
+	.margin-top-prom
+	{
+		margin-top: 5%;
+	}
+
+	.margin-top-max
+	{
+		margin-top: 10%;
+	}
+
+	.margin-bottom-0
+	{
+		margin-bottom: 0;
+	}
+
+	.margin-bottom-min
+	{
+		margin-bottom: 2%;
+	}
+
+	.margin-bottom-prom
+	{
+		margin-bottom: 5%;
+	}
+
+	.margin-bottom-max
+	{
+		margin-bottom: 10%;
+	}
+
+/* end margin styles */
+
+
+/* start some-general styles */
+
+	.padding-right-0
+	{
+		padding-right: 0 !important;
+	}
+
+	.padding-left-0
+	{
+		padding-left: 0;
+	}
+
+	.float-right
+	{
+		float: right;
+	}
+
+	.width-100
+	{
+		width: 100%;
+	}
+
+	.text-align-center
+	{
+		text-align: center !important;
+	}
+
+/* end padding styles */
+
+/* start bootstrap styles */
+	
+	.row-centered 
+	{
+		text-align:center;
+	}
+
+	.col-centered 
+	{
+		display:inline-block;
+		float:none;
+		text-align:left;
+		padding: 2px;
+	}
+
+/* end bootstrap styles */
+
+
+/* start over text styles */
+	
+	.text-container-over-behind
+	{
+		cursor: default;
+		position: relative;
+	}
+
+	.title-behind-power
+	{
+		font-family: 'Raleway Black', arial;
+		font-size: 38px;
+		font-weight: 900;
+		line-height: 0.5;
+		letter-spacing: -0.9px;
+		color: #2a2a2a;
+	}
+
+	.text-container-hover
+	{
+		position: absolute;
+		width: 100%;
+	}
+
+	.text-container-hover-title
+	{
+		top: 30%;
+		left: 1%;
+	}
+
+	.title-container
+	{
+		font-family: 'Raleway Black', arial;
+		font-size: 28px;
+		font-weight: 900;
+		line-height: 1.5;
+		letter-spacing: -0.3px;
+		text-align: center;
+		color: #7d7d7d;
+	}
+
+	.blue-word
+	{
+		color: #2c8eff;
+	}
+
+	.center-vertical-text
+	{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+/* end over text styles */
+
+
+/* start btn styles */
+
+	.btn-style 
+	{
+		padding: 8px;
+		padding-left: 35px;
+		padding-right: 35px;
+		border: 0;
+		border-radius: 20px;
+		background-image: linear-gradient(7deg, #63c4ff, #3491fe);
+		color: #ffffff;
+	}
+
+/* start btn styles */

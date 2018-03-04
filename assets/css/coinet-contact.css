@@ -1,0 +1,39 @@
+/* start coinet-contact styles */
+
+    #coinet-contact input
+  	{
+        width: 100%;
+        height: 44px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        border: solid 1px #e0e0e0;
+    }
+
+    #coinet-contact textarea
+    {
+        width: 100%;
+        height: 130px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        border: solid 1px #e0e0e0;
+    }
+
+    #coinet-contact .contact-text p
+  	{
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 1.17;
+        letter-spacing: -0.4px;
+        text-align: right;
+        color: #6a6a6a;
+  	}
+
+    .menssage
+    {
+        width: 322px;
+        height: 126px;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+
+/* end coinet-contact styles */

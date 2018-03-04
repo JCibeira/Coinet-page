@@ -1,0 +1,114 @@
+/* start coinet-team styles */
+
+	#coinet-team
+	{
+		background-color: #f7f7f7;
+	}
+
+	.title-behind-team
+	{
+		font-family: 'Raleway Black', arial;
+		font-size: 38px;
+		font-weight: 900;
+		line-height: 0.5;   		/* si todos o tienen hacer una clase especial */
+		letter-spacing: -0.9px;		/* si todos o tienen hacer una clase especial */
+		color: #d4d8dc;
+	}
+
+	.text-container-hover-charge
+	{
+		top: 5%;
+		left: 60%;
+	}
+
+	.charge-style 
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 9px;
+		font-weight: 300;
+		letter-spacing: 0.9px;
+		color: #ffffff;
+		border-radius: 10px;
+		background-color: #4a4a4a;
+		padding: 1%;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+
+	.text-container-hover-name
+	{
+		bottom: 8%;
+		left: 15%;
+	}
+
+	.charge-name 
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 9px;
+		font-weight: 300;
+		letter-spacing: -0.3px;
+		color: #ffffff;
+	}
+
+	.person-name
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: -0.6px;
+		color: #ffffff;
+	}
+
+	.text-container-hover-linkedin
+	{
+		bottom: 14%;
+		left: 75%;
+	}
+
+	.motto-container
+	{
+		background-color: #ffffff;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.motto-text
+	{
+		font-family: 'Raleway', arial;
+		font-size: 10px;
+		font-weight: 200;
+		line-height: 1.5;
+		letter-spacing: -0.4px;
+		text-align: justify;
+		color: #4a4a4a;
+	}
+
+	.employee-charge 
+	{
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 9px;
+	  font-weight: 300;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: -0.3px;
+	  text-align: left;
+	  color: #4a4a4a;
+	}
+
+	.employee-name
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: -0.6px;
+		text-align: left;
+		color: #4a4a4a;
+	}
+	
+/* end coinet-team styles */

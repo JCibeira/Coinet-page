@@ -13,21 +13,30 @@
 
 	.col-services
 	{
-		border-radius: 10px;
+		border-radius: 5%;
 		overflow: hidden;
 		background-clip: content-box;
   		background-image: linear-gradient(203deg, #313131, #464545);
 	}
 
+	.col-services-special
+	{
+		border-radius: 5%;
+		overflow: hidden;
+		background-clip: content-box;
+		background-image: linear-gradient(202deg, #44736e, #2db7d7);
+	}
+
 	.container-services
 	{
-		padding: 6%;
-		border-radius: 50px;
+		padding: 5%;
+		padding-left: 6%;
+		padding-right: 6%;
 	}
 
 	.img-services
 	{
-		border-radius: 10%; 
+		border-radius: 10%;
 		-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
 		-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
 		box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
@@ -53,10 +62,7 @@
 	{
 		font-size: 12px;
 		font-weight: bold;
-		font-style: normal;
 		text-transform: uppercase;
-		font-stretch: normal;
-		line-height: normal;
 		letter-spacing: 0.1px;
 		text-align: left;
 		color: #69cdec;
@@ -85,6 +91,56 @@
 		font-weight: 500;
 		letter-spacing: -0.3px;
 		color: #9f9a9a;
+	}
+
+	.coinet-power-social-media
+	{
+		border-radius: 3px; 
+		border: solid 1px #e6e5e5; 
+		font-family: 'Roboto', arial;
+		font-size: 15px;
+		font-weight: 300;
+		letter-spacing: -0.6px;
+		text-align: center;
+		color: #f2f1f2;
+		padding: 8px;
+		padding-top: 12px;
+		padding-bottom: 5px;
+		margin-bottom: 5px;
+	}
+
+
+	@media (max-width: 768px) 
+	{
+		.title-behind-power
+		{
+			font-size: 25px;
+		}
+
+		.title-container
+		{
+			font-size: 22px;
+		}
+
+		.title-behin-visin
+		{
+			font-size: 25px;
+		}
+
+		.title-container-visin
+		{
+			font-size: 12px;
+		}
+
+		.title-article-services
+		{
+			font-size: 12px;
+		}
+
+		.margin-top-prom
+		{
+			margin-top: 10%;
+		}
 	}
 
 /* end coinet-power styles */

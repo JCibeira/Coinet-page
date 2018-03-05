@@ -18,19 +18,19 @@
 	{
 		color: #ffffff !important;
 		font-size: 12px;
-		font-weight: normal;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: normal;
 		letter-spacing: 0.1px;
 		text-align: left;
-		border-left: solid 1px #062831;
 	}
 
 	.navbar-custom ul > li > a:hover
 	{
 		background-color: transparent;
 	}
+
+	/*.separator
+	{
+		border-left: solid 1px #062831;
+	}*/
 
 	.icon-nav
 	{
@@ -68,7 +68,7 @@
 		color: #6C6D78;
 	}
 
-	header .intro-text 
+	.intro-text 
 	{
 		padding-top: 13%;
 		padding-bottom: 20%;
@@ -80,8 +80,6 @@
 		font-family: 'Raleway Black', arial;
 		font-weight: 900;
 		font-style: bold;
-		font-stretch: normal;
-		line-height: normal;
 		letter-spacing: 0.2px;
 		text-align: center;
 		color: #ffffff;
@@ -95,9 +93,6 @@
 	header .intro-text .intro-heading p
 	{
 		font-size: 16px;
-		font-weight: normal;
-		font-style: normal;
-		font-stretch: normal;
 		line-height: 1.19;
 		letter-spacing: -0.4px;
 		text-align: center;
@@ -107,13 +102,35 @@
 	header .intro-text .intro-description p
 	{
 		font-size: 16px;
-		font-weight: normal;
-		font-style: normal;
-		font-stretch: normal;
 		line-height: 1.19;
 		letter-spacing: -0.4px;
 		text-align: center;
 		color: #8d8d8d;
+	}
+
+	@media (max-width: 992px) 
+	{
+		header 
+		{
+			max-height: 600px;
+		}
+
+		header .intro-text 
+		{
+			padding-top: 10%;
+			padding-bottom: 15%;
+		}
+
+		header .intro-text .intro-lead-in h1
+		{
+			font-size: 35px;		
+		}
+
+		header .intro-text .intro-heading 
+		{
+			text-align: justify;
+			font-size: 20px;
+		}
 	}
 
 	@media (max-width: 768px) 
@@ -126,7 +143,7 @@
 		header .intro-text 
 		{
 			padding-top: 100px;
-			padding-bottom: 100px;
+			padding-bottom: 10%;
 		}
 
 		header .intro-text .intro-lead-in h1

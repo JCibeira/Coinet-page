@@ -1,4 +1,4 @@
-/* start body styles */
+ start body styles 
 	
 	html 
 	{
@@ -50,6 +50,11 @@
 		margin-top: 10%;
 	}
 
+	.margin-top-fix
+	{
+		margin-top: 10px;
+	}
+
 	.margin-bottom-0
 	{
 		margin-bottom: 0;
@@ -57,7 +62,7 @@
 
 	.margin-bottom-min
 	{
-		margin-bottom: 2%;
+		margin-bottom: 2% !important;
 	}
 
 	.margin-bottom-prom
@@ -85,6 +90,11 @@
 		padding-left: 0;
 	}
 
+	.padding-left-prom
+	{
+		padding-left: 5% !important;
+	}
+
 	.float-right
 	{
 		float: right;
@@ -92,7 +102,7 @@
 
 	.width-100
 	{
-		width: 100%;
+		width: 100% !important;
 	}
 
 	.text-align-center
@@ -100,7 +110,14 @@
 		text-align: center !important;
 	}
 
-/* end padding styles */
+	.equal 
+	{
+		display: flex;
+		display: -webkit-flex;
+		flex-wrap: wrap;
+	}
+
+/* end some-general styles */
 
 /* start bootstrap styles */
 	
@@ -163,14 +180,23 @@
 
 	.blue-word
 	{
-		color: #2c8eff;
+		color: #2db7d7;
 	}
 
 	.center-vertical-text
 	{
 		display: flex;
 		align-items: center;
-		flex-wrap: wrap;
+	}
+
+	.background-color-white
+	{
+		background-color: #ffffff;
+	}
+
+	.background-color-bg
+	{
+		background-color: #f7f7f7;
 	}
 
 /* end over text styles */

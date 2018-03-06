@@ -8,12 +8,13 @@
 
         <title>Coinet</title>
 
-        <link rel="icon" href="../assets/img/iso.png">
+        <link rel="icon" href="../assets/img/general/iso.png">
 
-        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="../assets/css/montserrat.css" rel="stylesheet">
-        <link href="../assets/css/roboto.css" rel="stylesheet">
-        <link href="../assets/css/raleway.css" rel="stylesheet" type="text/css">
+        <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        
+        <link href="../assets/vendor/fonts/montserrat.css" rel="stylesheet" type="text/css">
+        <link href="../assets/vendor/fonts/roboto.css" rel="stylesheet" type="text/css">
+        <link href="../assets/vendor/fonts/raleway.css" rel="stylesheet" type="text/css">
         
         <link href="../assets/css/general.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/navbar-header.css" rel="stylesheet" type="text/css">
@@ -24,14 +25,11 @@
         <link href="../assets/css/coinet-contact.css" rel="stylesheet" type="text/css">
         
         <link href="../assets/css/footer.css" rel="stylesheet" type="text/css">
-        
-        <script src="../assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
-        <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
     	
-    	<nav class="navbar navbar-custom navbar-fixed-top">
+    	<nav class="navbar navbar-custom navbar-fixed-top" id="mainNav">
 	        <div class="container">
 	            <div class="navbar-header">
 	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,15 +37,15 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>                        
 	                </button>
-	                <a class="brand" href="#"> <img class="pull-left icon-nav" src="../assets/img/logo-coinet@3x.png"></a>
+	                <a class="brand" href="#"> <img class="pull-left icon-nav" src="../assets/img/navbar-header/logo-coinet@3x.png"></a>
 	            </div>
 	            <div class="collapse navbar-collapse" id="myNavbar">
 	                <ul class="nav navbar-nav navbar-right">
-	                    <li><a href="#"> SERVICIOS </a></li>
-	                    <li><a class="separator" href="#"> TEAM </a></li>
-	                    <li><a class="separator" href="#"> BLOG </a></li>
-	                    <li><a class="separator" href="#"> FUNDACIÓN </a></li>
-	                    <li><a class="separator" href="#"> PROYECTOS </a></li>
+	                    <li><a class="js-scroll-trigger" href="#coinet-power"> SERVICIOS </a></li>
+	                    <li><a class="js-scroll-trigger" href="#coinet-proyects"> PROYECTOS </a></li>
+	                    <li><a class="js-scroll-trigger" href="#coinet-team"> TEAM </a></li>
+	                    <li><a class="js-scroll-trigger" href="#"> FUNDACIÓN </a></li>
+	                    <li><a class="js-scroll-trigger" href="#coinet-contact"> CONTACTO </a></li>
 	                </ul>
 	            </div>
 	        </div>
@@ -58,7 +56,7 @@
 	            <div class="intro-text">
 	                <div class="row row-centered margin-bottom-min">
 	                    <div class="col-xs-10 col-centered text-align-center">
-	                        <img src="../assets/img/iso.png">
+	                        <img src="../assets/img/general/iso.png">
 	                        <div class="intro-lead-in margin-top-prom">
 	                            <h1><span>CREAMOS PROYECTOS BASADOS EN {</span><span class="blue-word">BLOCKCHAIN</span><span>}</span></h1>   
 	                        </div>
@@ -71,14 +69,12 @@
 	                        </div>
 	                    </div>
 	                    <div class="hidden-sm hidden-xs col-centered">
-	                        <a href="#"><p><img src="../assets/img/compartir-ico.png" class="img-responsive"></p></a>
-	                        <a href="#"><p><img src="../assets/img/telegram-ico.png" class="img-responsive"></p></a>
-	                        <a href="#"><p><img src="../assets/img/instagram-ico.png" class="img-responsive"></p></a>
-	                        <a href="#"><p><img src="../assets/img/twitter-ico.png" class="img-responsive"></p></a>
+	                        <a href="#"><p><img src="../assets/img/general/compartir-ico.png" class="img-responsive"></p></a>
+	                        <a href="#"><p><img src="../assets/img/navbar-header/telegram-ico.png" class="img-responsive"></p></a>
+	                        <a href="#"><p><img src="../assets/img/navbar-header/instagram-ico.png" class="img-responsive"></p></a>
+	                        <a href="#"><p><img src="../assets/img/navbar-header/twitter-ico.png" class="img-responsive"></p></a>
 	                    </div>
 	                </div>
-	                
-	               
 	            </div>
 	        </div>
 	    </header>
@@ -86,7 +82,7 @@
         <div class="main">
            <section id="coinet-power">
             	<div class="container">
-            		<div class="row margin-top-min">
+            		<div class="row margin-top-max margin-bottom-max">
 	                    <div class="col-xs-12">
 	                    	<div class="text-container-over-behind">
 	                            <span class="title-behind-power">servicios</span>
@@ -96,11 +92,11 @@
 	                        </div>
 	                    </div>
                 	</div>
-                	<div class="row margin-top-prom">
+                	<div class="row">
 	                    <div class="col-xs-12 col-sm-6 col-services margin-bottom-min">
 	                    	<div class="row row-centered center-vertical-text container-services">
 	                    		<div class="col-xs-3 col-md-4 col-centered">
-	                    			<img src="../assets/img/stellar-img@2x.png" class="img-responsive width-100 img-services">
+	                    			<img src="../assets/img/coinet-power/stellar-img@3x.png" class="img-responsive width-100 img-services">
 	                    		</div>
 	                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 	                    			<span class="title-article-services">Creación de Contrato Inteligente en la  plataforma de Stellar.</span>
@@ -109,17 +105,17 @@
 	                    		</div>
 	                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
                     				<div class="coinet-power-social-media">
-                						<a href="#"><img src="../assets/img/like-ico.png" class="img-responsive"></a>
+                						<a href="#"><img src="../assets/img/coinet-power/like-ico.png" class="img-responsive"></a>
                 						<p class="margin-top-fix">12</p>
                     				</div>
-	                    			<a href="#"><p><img src="../assets/img/compartir-ico.png" class="img-responsive"></p></a>
+	                    			<a href="#"><p><img src="../assets/img/general/compartir-ico.png" class="img-responsive"></p></a>
 	                    		</div>
 	                    	</div>
 	                    </div>
 	                    <div class="col-xs-12 col-sm-6 col-services margin-bottom-min">
 	                    	<div class="row row-centered center-vertical-text container-services">
 	                    		<div class="col-xs-3 col-md-4 col-centered">
-	                    			<img src="../assets/img/stellar-img@2x.png" class="img-responsive width-100 img-services">
+	                    			<img src="../assets/img/coinet-power/stellar-img@3x.png" class="img-responsive width-100 img-services">
 	                    		</div>
 	                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 	                    			<span class="title-article-services">Desarrollo de proyectos bajo tecnología Blockchain.</span>
@@ -128,19 +124,19 @@
 	                    		</div>
 	                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
                     				<div class="coinet-power-social-media">
-                						<a href="#"><img src="../assets/img/like-ico.png" class="img-responsive"></a>
+                						<a href="#"><img src="../assets/img/coinet-power/like-ico.png" class="img-responsive"></a>
                 						<p class="margin-top-fix">12</p>
                     				</div>
-	                    			<a href="#"><p><img src="../assets/img/compartir-ico.png" class="img-responsive"></p></a>
+	                    			<a href="#"><p><img src="../assets/img/general/compartir-ico.png" class="img-responsive"></p></a>
 	                    		</div>
 	                    	</div>
 	                    </div>
                 	</div>
-	                <div class="row margin-bottom-max">
-	                    <div class="col-xs-12 col-sm-6 col-services-special margin-bottom-prom">
+                	<div class="row">
+	                    <div class="col-xs-12 col-sm-6 col-services margin-bottom-min">
 	                    	<div class="row row-centered center-vertical-text container-services">
 	                    		<div class="col-xs-3 col-md-4 col-centered">
-	                    			<img src="../assets/img/stellar-img@2x.png" class="img-responsive width-100 img-services">
+	                    			<img src="../assets/img/coinet-power/silver-coin@3x.png" class="img-responsive width-100 img-services">
 	                    		</div>
 	                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 	                    			<span class="title-article-services">Organizar y desarrollar ICO para la recaudación de fondos.</span>
@@ -149,14 +145,54 @@
 	                    		</div>
 	                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
                     				<div class="coinet-power-social-media">
-                						<a href="#"><img src="../assets/img/like-ico.png" class="img-responsive"></a>
+                						<a href="#"><img src="../assets/img/coinet-power/like-ico.png" class="img-responsive"></a>
                 						<p class="margin-top-fix">12</p>
                     				</div>
-	                    			<a href="#"><p><img src="../assets/img/compartir-ico.png" class="img-responsive"></p></a>
+	                    			<a href="#"><p><img src="../assets/img/general/compartir-ico.png" class="img-responsive"></p></a>
 	                    		</div>
 	                    	</div>
 	                    </div>
-	                    <div class="col-xs-12 col-sm-6 margin-bottom-prom">
+	                    <div class="col-xs-12 col-sm-6 col-services-special margin-bottom-min">
+	                    	<div class="row row-centered center-vertical-text container-services">
+	                    		<div class="col-xs-3 col-md-4 col-centered">
+	                    			<img src="../assets/img/coinet-power/silver-coin@3x.png" class="img-responsive width-100 img-services">
+	                    		</div>
+	                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
+	                    			<span class="title-article-services">Soporte en el área de Marketing y manejo de redes sociales.</span>
+                					<hr class="line-article" align="left" width="30%">
+                					<a href="#"><span class="see-more-link">Ver servicio</span></a>
+	                    		</div>
+	                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
+                    				<div class="coinet-power-social-media">
+                						<a href="#"><img src="../assets/img/coinet-power/like-ico.png" class="img-responsive"></a>
+                						<p class="margin-top-fix">12</p>
+                    				</div>
+	                    			<a href="#"><p><img src="../assets/img/general/compartir-ico.png" class="img-responsive"></p></a>
+	                    		</div>
+	                    	</div>
+	                    </div>
+                	</div>
+	                <div class="row margin-bottom-max">
+	                  	<div class="col-xs-12 col-sm-6 col-services margin-bottom-prom">
+	                    	<div class="row row-centered center-vertical-text container-services">
+	                    		<div class="col-xs-3 col-md-4 col-centered">
+	                    			<img src="../assets/img/coinet-power/silver-coin@3x.png" class="img-responsive width-100 img-services">
+	                    		</div>
+	                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
+	                    			<span class="title-article-services">Asesoría en trading de criptomonedas.</span>
+                					<hr class="line-article" align="left" width="30%">
+                					<a href="#"><span class="see-more-link">Ver servicio</span></a>
+	                    		</div>
+	                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
+                    				<div class="coinet-power-social-media">
+                						<a href="#"><img src="../assets/img/coinet-power/like-ico.png" class="img-responsive"></a>
+                						<p class="margin-top-fix">12</p>
+                    				</div>
+	                    			<a href="#"><p><img src="../assets/img/general/compartir-ico.png" class="img-responsive"></p></a>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-xs-11 col-sm-5 margin-bottom-prom">
 	                    	<div class="text-container">
 	                            <span class="title-behin-visin">visión</span>
 	                            <div class="text-container-hover text-container-hover-visin">
@@ -169,7 +205,7 @@
            </section>
            <section id="coinet-proyects">
             	<div class="container">
-            		<div class="row margin-top-min">
+            		<div class="row margin-top-max margin-bottom-prom">
 	                    <div class="col-xs-12">
 	                    	<div class="text-container">
 	                            <span class="title-behind-power">proyecto</span>
@@ -179,9 +215,52 @@
 	                        </div>
 	                    </div>
                 	</div>
-                	<div class="row margin-top-prom">
-                		<div class="col-md-5">
+                	<div class="row margin-bottom-min">
+                		<div class="col-sm-12 col-md-8 col-lg-5">
                 			<p class="rewool-text">Rewool es una plataforma P2P que permite de forma descentralizada que las personas participen en un juego de cartas binario, con la tecnología blockchain existe la seguridad de que no esta siendo manipulado el resultado garantizando transparencia en el proceso, actualmente el equipo de Coinet trabaja en la ejecución de la ICO y próximamente se anunciara su lanzamiento.</p>
+                		</div>
+                	</div>
+                	<div class="row margin-bottom-prom hidden-xs">
+                		<div class="col-sm-8 col-md-8 col-lg-5">
+                			<div class="row">
+                				<div class="col-xs-6">
+                					<div class="row center-vertical-text">
+                						<div class="col-xs-4 padding-right-0">
+		                					<span class="title-info-proyects">+150</span>
+		                				</div>
+		                				<div class="col-xs-6 padding-right-0">
+		                					<span class="info-proyects">Horas de desarrollo</span>
+		                				</div>
+		                			</div>
+                				</div>
+                				<div class="col-xs-6">
+                					<div class="row center-vertical-text">
+                						<div class="col-xs-2 padding-right-0">
+		                					<span class="title-info-proyects">5</span>
+		                				</div>
+		                				<div class="col-xs-8 padding-right-0">
+		                					<span class="info-proyects">Personas asignadas  al proyecto</span>
+		                				</div>
+		                			</div>
+                				</div>
+                			</div>
+                		</div>
+                	</div>
+                	<div class="row">
+                		<div class="col-sm-8 col-lg-5">
+                			<div class="row">
+                				<div class="col-sm-10">
+                					<div class="row">
+                						<div class="col-xs-6 padding-right-0">
+		                					<button class="btn-style"> IR A SITIO WEB </button>
+		                					<p class="coming-soon">Próximamente…</p>
+		                				</div>
+		                				<div class="col-xs-4 padding-right-0">
+		                					<a href="#"><img src="../assets/img/coinet-proyects/share.png"></a>
+		                				</div>
+		                			</div>
+                				</div>
+                			</div>
                 		</div>
                 	</div>
             	</div>
@@ -198,7 +277,7 @@
 	                        </div>
 	                    </div>
                 	</div>
-                	<div class="row margin-top-prom margin-bottom-min hidden-xs equal">
+                	<div class="row margin-top-prom hidden-xs equal">
 	                    <div class="col-sm-3 margin-bottom-min coinet-team-container">
 	                    	<div class="row">
 	                    		<div class="col-xs-12">
@@ -207,16 +286,16 @@
 			                                 <span class="charge-style">Fundador</span>
 			                            </div>
 			                            <div class="text-container-hover text-container-hover-name">
-			                                 <p class="charge-name">Fundador</p>
+			                                 <p class="charge-name">Director Ejecutivo</p>
 			                                 <span class="person-name">
 			                                 	<p class="margin-bottom-0">Iván</p>
 			                                 	<p class="margin-top-0">Aránzazu</p>
 			                                 </span>
 			                            </div>
 			                            <div class="text-container-hover text-container-hover-linkedin">
-			                                <a href="#"><img src="../assets/img/perfil-ico.png" class="img-responsive" ></a> 
+			                                <a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive" ></a> 
 			                            </div>
-			                            <img src="../assets/img/ivan@2x.png" class="img-responsive width-100 img-employee-big">
+			                            <img src="../assets/img/coinet-team/ivan@3x.png" class="img-responsive width-100 img-employee-big">
 			                        </div>
 			                        <div class="motto-container hidden-sm">
 			                        	<p class="motto-text">
@@ -234,16 +313,16 @@
 			                                 <span class="charge-style">Fundador</span>
 			                            </div>
 			                            <div class="text-container-hover text-container-hover-name">
-			                                 <p class="charge-name">Fundador</p>
+			                                 <p class="charge-name">Director de Operaciones</p>
 			                                 <span class="person-name">
-			                                 	<p class="margin-bottom-0">Iván</p>
-			                                 	<p class="margin-top-0">Aránzazu</p>
+			                                 	<p class="margin-bottom-0">Fernando</p>
+			                                 	<p class="margin-top-0">González</p>
 			                                 </span>
 			                            </div>
 			                            <div class="text-container-hover text-container-hover-linkedin">
-			                                <a href="#"><img src="../assets/img/perfil-ico.png" class="img-responsive" ></a> 
+			                                <a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive" ></a> 
 			                            </div>
-			                            <img src="../assets/img/ivan@2x.png" class="img-responsive width-100 img-employee-big">
+			                            <img src="../assets/img/coinet-team/fernando@3x.png" class="img-responsive width-100 img-employee-big">
 			                        </div>
 			                        <div class="motto-container hidden-sm">
 			                        	<p class="motto-text">
@@ -253,24 +332,218 @@
 	                    		</div>
 	                    	</div>
 	                    </div>
+	                    <div class="col-sm-3 margin-bottom-min coinet-team-container">
+	                    	<div class="row">
+	                    		<div class="col-xs-12">
+	                    			<div class="text-container-over-behind">
+			                            <div class="text-container-hover text-container-hover-charge">
+			                                 <span class="charge-style">Fundador</span>
+			                            </div>
+			                            <div class="text-container-hover text-container-hover-name">
+			                                 <p class="charge-name">Director de Mercadeo</p>
+			                                 <span class="person-name">
+			                                 	<p class="margin-bottom-0">Víctor</p>
+			                                 	<p class="margin-top-0">Portillo</p>
+			                                 </span>
+			                            </div>
+			                            <div class="text-container-hover text-container-hover-linkedin">
+			                                <a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive" ></a> 
+			                            </div>
+			                            <img src="../assets/img/coinet-team/victor@3x.png" class="img-responsive width-100 img-employee-big">
+			                        </div>
+			                        <div class="motto-container hidden-sm">
+			                        	<p class="motto-text">
+			                        		“La tecnología Blockchain y las criptomonedas son el proyecto social y económico más grande de la historia”
+			                        	</p>
+			                        </div>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-3 margin-bottom-min coinet-team-container">
+	                    	<div class="row">
+	                    		<div class="col-xs-12">
+	                    			<div class="text-container-over-behind">
+			                            <div class="text-container-hover text-container-hover-charge">
+			                                 <span class="charge-style">Gerente</span>
+			                            </div>
+			                            <div class="text-container-hover text-container-hover-name">
+			                                 <p class="charge-name">Project Manager</p>
+			                                 <span class="person-name">
+			                                 	<p class="margin-bottom-0">Marines</p>
+			                                 	<p class="margin-top-0">Monserrat</p>
+			                                 </span>
+			                            </div>
+			                            <div class="text-container-hover text-container-hover-linkedin">
+			                                <a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive" ></a> 
+			                            </div>
+			                            <img src="../assets/img/coinet-team/marines@3x.png" class="img-responsive width-100 img-employee-big">
+			                        </div>
+			                        <div class="motto-container hidden-sm">
+			                        	<p class="motto-text">
+			                        		"La tecnología BLOCKCHAIN me hace creer que existe la posibilidad de un sistema donde lo más importante son las personas y no los intereses de un grupo privilegiado"
+			                        	</p>
+			                        </div>
+	                    		</div>
+	                    	</div>
+	                    </div>
 	                </div>
 	                <div class="row margin-top-min margin-bottom-prom hidden-xs">
-	                    <div class="col-xs-12 col-sm-6 coinet-team-container">
-	                    	<div class="row center-vertical-text motto-container-little equal">
-	                    		<div class="col-xs-12 col-sm-3 padding-right-0">
-	                    			<img src="../assets/img/jennifer@2x.png" class="img-responsive width-100 img-employee-little">
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/lorena@3x.png" class="img-responsive width-100 img-employee-little">
 	                    		</div>
-	                    		<div class="col-xs-12 col-sm-3 padding-right-0">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+                    				<p class="employee-charge">Business Development</p>
+                    				<span class="employee-name margin-bottom-0">
+                    					<p class="margin-bottom-0">Lorena</p>
+                    					<p class="margin-top-0">Mejias</p>
+                    				</span>
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
+	                    		</div>
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
+		                        	<p class="motto-text">
+		                        		“Tanto las criptomonedas como el blockchain representan el futuro financiero del mundo; algo que hace 9 años se veía muy lejano, esta tecnología nos liberara de la dependencia económica de las grandes masas.”
+		                        	</p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/jennifer@3x.png" class="img-responsive width-100 img-employee-little">
+	                    		</div>
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
                     				<p class="employee-charge">Generador de contenido</p>
                     				<span class="employee-name margin-bottom-0">
                     					<p class="margin-bottom-0">Jennifer</p>
                     					<p class="margin-top-0">Galindo</p>
                     				</span>
-                    				<a href="#"><img src="../assets/img/perfil-ico.png" class="img-responsive"></a> 
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
 	                    		</div>
-	                    		<div class="col-xs-12 col-sm-6 padding-left-0">
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
 		                        	<p class="motto-text">
 		                        		“Las criptomonedas son parte del futuro, el que no las conozca hoy, mañana tendrá que utilizarlas sin ganancias. Estudia, invierte y proyecta, la tecnología avanza y no espera a nadie”
+		                        	</p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/rayvis@3x.png" class="img-responsive width-100 img-employee-little">
+	                    		</div>
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+                    				<p class="employee-charge">Director Financiero (CFO)</p>
+                    				<span class="employee-name margin-bottom-0">
+                    					<p class="margin-bottom-0">Rayvis</p>
+                    					<p class="margin-top-0">Rojas</p>
+                    				</span>
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
+	                    		</div>
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
+		                        	<p class="motto-text">
+		                        		“Nada es imposible para una mente dispuesta, El blockchain y las criptomonedas es la nueva forma de emprender y asegurar el futuro y tu vejez”
+		                        	</p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/ricardo@3x.png" class="img-responsive width-100 img-employee-little">
+	                    		</div>
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+                    				<p class="employee-charge">Smart Contract Developer</p>
+                    				<span class="employee-name margin-bottom-0">
+                    					<p class="margin-bottom-0">Ricardo</p>
+                    					<p class="margin-top-0">Dizio</p>
+                    				</span>
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
+	                    		</div>
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
+		                        	<p class="motto-text">
+		                        		“Es nuestra oportunidad de tener un mundo más seguro y transparente donde todos podamos ser partícipes en una red más distribuida gracias a las ventajas de la programación y el Blockchain”
+		                        	</p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/gabriel@3x.png" class="img-responsive width-100 img-employee-little">
+	                    		</div>
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+                    				<p class="employee-charge">Developer</p>
+                    				<span class="employee-name margin-bottom-0">
+                    					<p class="margin-bottom-0">Gabriel</p>
+                    					<p class="margin-top-0">Noya</p>
+                    				</span>
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
+	                    		</div>
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
+		                        	<p class="motto-text">
+		                        		“Dar a los usuarios un sistema realmente seguro, eficiente, confiable y libre de intermediarios es tan solo una pequeña parte del verdadero potencial del Blockchain”
+		                        	</p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/victor-g@3x.png" class="img-responsive width-100 img-employee-little">
+	                    		</div>
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+                    				<p class="employee-charge">Developer</p>
+                    				<span class="employee-name margin-bottom-0">
+                    					<p class="margin-bottom-0">Victor</p>
+                    					<p class="margin-top-0">Garcia</p>
+                    				</span>
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
+	                    		</div>
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
+		                        	<p class="motto-text">
+		                        		“No permitas que una idea se quede atrapada en el pasado, es momento de hacerla realidad con la tecnología que será la base comercial del mundo”
+		                        	</p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/steeven@3x.png" class="img-responsive width-100 img-employee-little">
+	                    		</div>
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+                    				<p class="employee-charge">UI Designer</p>
+                    				<span class="employee-name margin-bottom-0">
+                    					<p class="margin-bottom-0">Steeven</p>
+                    					<p class="margin-top-0">Castellanos</p>
+                    				</span>
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
+	                    		</div>
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
+		                        	<p class="motto-text">
+		                        		“Estamos ante avances tecnológicos cruciales en el mundo del desarrollo web, mismo caso para el diseño de interfaces en donde se deberán cumplir todos los patrones web para que una web pueda ser publicada”
+		                        	</p>
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                    <div class="col-sm-4 col-md-6 coinet-team-container margin-top-min">
+	                    	<div class="row center-vertical-text motto-container-little">
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+	                    			<img src="../assets/img/coinet-team/default.png" class="img-responsive width-100 img-employee-little">
+	                    		</div>
+	                    		<div class="col-sm-6 col-md-3 padding-right-0">
+                    				<p class="employee-charge">Community Manager</p>
+                    				<span class="employee-name margin-bottom-0">
+                    					<p class="margin-bottom-0">Carolin</p>
+                    					<p class="margin-top-0">Castillo</p>
+                    				</span>
+                    				<a href="#"><img src="../assets/img/coinet-team/LinkedIn.png" class="img-responsive"></a> 
+	                    		</div>
+	                    		<div class="col-md-6 hidden-sm padding-left-0">
+		                        	<p class="motto-text">
+		                        		“La comunidad cripto tiene a los medios sociales como herramienta básica para la comunicación, para nosotros es muy interesante experimentar las nuevas formas de hacer negocios e inversiones” 
 		                        	</p>
 	                    		</div>
 	                    	</div>
@@ -280,16 +553,16 @@
            </section>
            <section id="coinet-contact">
 	            <div class="container">
-	                <div class="row margin-top-max margin-bottom-max center-vertical-text">
-	                    <div class="col-xs-12 col-md-4 col-md-offset-1 col-xs-offset-0">
-	                        <div class="contact-text">
+	                <div class="row margin-top-max margin-bottom-max">
+	                    <div class="col-xs-12 col-md-5 col-xs-offset-0">
+	                        <div class="contact-text margin-bottom-prom">
 	                            <p>
-	                                <span>CONTÁCTANOS Y DESCUBRE EL PODER DE</span>
-	                                <span class="blue-word">COINET</span>
+	                                <span>CONTÁCTANOS</span> <span class="hidden-xs">Y DESCUBRE EL PODER DE</span>
+	                                <span class="hidden-xs blue-word">COINET</span>
 	                            </p>  
 	                        </div>
 	                    </div>
-	                    <div class="col-xs-12 col-md-4 col-md-offset-1 col-xs-offset-0">
+	                    <div class="col-xs-12 col-md-5 col-md-offset-1 col-xs-offset-0">
 	                        <input type="text" placeholder="    Nombre y Apellido">
 	                        <input class="margin-top-min" type="text" placeholder="    E-mail">
 	                        <input class="margin-top-min" type="text" placeholder="    Empresa">
@@ -310,7 +583,7 @@
                       <h2 class="margin-bottom-prom margin-top-prom"> Información de Contacto </h2>
                       <div class="row"> 
                           <div class="col-xs-1">
-                              <img class="contact-icons" src="../assets/img/direccion-ico-copy.png">
+                              <img class="contact-icons" src="../assets/img/footer/direccion-ico.png">
                           </div>
                           <div class="col-xs-10">
                               <span>
@@ -321,7 +594,7 @@
                       </div>
                       <div class="row"> 
                           <div class="col-xs-1">
-                              <img class="contact-icons" src="../assets/img/horario-ico-copy.png">
+                              <img class="contact-icons" src="../assets/img/footer/horario-ico.png">
                           </div>
                           <div class="col-xs-10">
                               <span>  
@@ -332,7 +605,7 @@
                       </div>       
                       <div class="row"> 
                           <div class="col-xs-1">
-                              <img class="contact-icons" src="../assets/img/telefono-ico-copy.png">
+                              <img class="contact-icons" src="../assets/img/footer/telefono-ico.png">
                           </div>
                           <div class="col-xs-10">
                               <span>  
@@ -343,7 +616,7 @@
                       </div>                
                       <div class="row"> 
                           <div class="col-xs-1">
-                              <img class="contact-icons" src="../assets/img/e-mail-ico-copy.png">
+                              <img class="contact-icons" src="../assets/img/footer/e-mail-ico.png">
                           </div>
                           <div class="col-xs-10">
                               <span>  
@@ -367,35 +640,35 @@
                       <h2 class="margin-bottom-prom margin-top-prom"> Mini Galería Coinet </h2>
                       <div class="row margin-bottom-prom"> 
                           <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-1.png">
+                             <img src="../assets/img/footer/imagen-instagram-1.png">
                           </div>
                           <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-2.png">
+                             <img src="../assets/img/footer/imagen-instagram-2.png">
                           </div>
                           <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-3.png">
-                          </div>
-                      </div>
-                      <div class="row margin-bottom-prom"> 
-                          <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-4.png">
-                          </div>
-                          <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-5.png">
-                          </div>
-                          <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-6.png">
+                             <img src="../assets/img/footer/imagen-instagram-3.png">
                           </div>
                       </div>
                       <div class="row margin-bottom-prom"> 
                           <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-4.png">
+                             <img src="../assets/img/footer/imagen-instagram-4.png">
                           </div>
                           <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-5.png">
+                             <img src="../assets/img/footer/imagen-instagram-5.png">
                           </div>
                           <div class="col-md-4">
-                             <img src="../assets/img/imagen-instagram-6.png">
+                             <img src="../assets/img/footer/imagen-instagram-6.png">
+                          </div>
+                      </div>
+                      <div class="row margin-bottom-prom"> 
+                          <div class="col-md-4">
+                             <img src="../assets/img/footer/imagen-instagram-4.png">
+                          </div>
+                          <div class="col-md-4">
+                             <img src="../assets/img/footer/imagen-instagram-5.png">
+                          </div>
+                          <div class="col-md-4">
+                             <img src="../assets/img/footer/imagen-instagram-6.png">
                           </div>
                       </div>
                   </div>
@@ -409,5 +682,12 @@
               </div>
           </div>
       	</div>
+
+      	<script src="../assets/vendor/jquery/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/vendor/jquery-easing/jquery.easing.min.js" type="text/javascript"></script>
+        
+        <script src="../assets/js/main.js" type="text/javascript"></script>
+
     </body>
 </html>

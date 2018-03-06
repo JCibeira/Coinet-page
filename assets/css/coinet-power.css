@@ -110,7 +110,7 @@
 	}
 
 
-	@media (max-width: 768px) 
+	@media (max-width: 400px) 
 	{
 		.title-behind-power
 		{
@@ -129,7 +129,7 @@
 
 		.title-container-visin
 		{
-			font-size: 12px;
+			font-size: 11px;
 		}
 
 		.title-article-services

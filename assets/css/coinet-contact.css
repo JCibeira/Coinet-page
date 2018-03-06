@@ -20,6 +20,7 @@
 
     #coinet-contact .contact-text p
   	{
+        font-family: 'Raleway Black', arial;
         font-size: 36px;
         font-weight: 900;
         line-height: 1.17;
@@ -34,6 +35,15 @@
         height: 126px;
         border-radius: 20px;
         background-color: #ffffff;
+    }
+
+    @media (max-width: 768px) 
+    {
+        #coinet-contact .contact-text p
+        {
+            font-size: 25px;
+            text-align: left;
+        }
     }
 
 /* end coinet-contact styles */

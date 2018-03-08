@@ -1,0 +1,103 @@
+/* start coinet-foundation styles */
+
+    #coinet-4geeks
+  	{
+        background-image: url('../img/coinet-foundation/imagen-fundacion.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+  	}
+
+    .row-tape
+    {
+        background-image: url('../img/coinet-foundation/cinta@3x.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .text-container-hover-studies
+    {
+        bottom: -40%;
+        left: 0;
+    }
+
+    .title-estudios 
+    {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 1.11;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: #cccccc;
+    }
+
+    .title-behind-estudios
+    {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 0.5;
+        letter-spacing: -0.9px;
+        text-align: center;
+        color: #4c709c;
+    }
+
+    .row-scholarship 
+    {
+        border-radius: 10px;
+        padding: 2%;
+        background-color: #ffffff;
+    }
+
+    .title-scholarship 
+    {
+        font-family: 'Raleway Black', arial;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -0.6px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .text-4geeks
+    {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.58;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #9b9b9b;
+    }
+
+    .text-number-likes-4geeks
+    {
+        color: #4a4a4a;
+    }
+
+    @media (max-width: 400px) 
+    {
+        .margin-bottom-max
+        {
+            margin-bottom: 60px;
+        }
+
+        .title-estudios 
+        {
+            font-size: 22px;
+        }
+
+        .title-behind-estudios
+        {
+            font-size: 25px;
+        }
+
+        .row-scholarship 
+        {
+            padding: 20px;
+        }
+    }
+
+
+/* end coinet-foundation styles */

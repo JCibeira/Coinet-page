@@ -35,7 +35,7 @@
 	.icon-nav
 	{
 		max-width: 97px; 
-		margin-top: 9px; 
+		margin-top: 12px;
 	}
 
 	.navbar-custom .navbar-toggle 
@@ -55,16 +55,10 @@
 
 	header 
 	{
-		height: 700px;
 		background-image: url('../img/navbar-header/banner-equipo.png');
 		background-color: #cccccc;
 		background-repeat: no-repeat;
-		background-attachment: scroll;
-		background-position: center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		-o-background-size: cover;
+        background-size: 100% 100%;
 		color: #6C6D78;
 	}
 

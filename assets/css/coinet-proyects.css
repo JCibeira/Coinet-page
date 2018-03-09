@@ -3,7 +3,8 @@
 	#coinet-proyects
 	{
 		background-image: url('../img/coinet-proyects/row-proyectos.png');
-		min-height: 617px;
+		background-repeat: no-repeat;
+        background-size: 100% 100%;
 	}
 
 	.text-container-hover-proyect

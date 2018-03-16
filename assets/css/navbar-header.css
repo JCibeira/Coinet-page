@@ -53,7 +53,7 @@
 
 /* start header styles */
 
-	header 
+	#coinet-intro
 	{
 		background-image: url('../img/navbar-header/banner-equipo.png');
 		background-color: #cccccc;
@@ -62,13 +62,13 @@
 		color: #6C6D78;
 	}
 
-	.intro-text 
+	#coinet-intro .intro-text 
 	{
 		padding-top: 13%;
 		padding-bottom: 20%;
 	}
 
-	header .intro-text .intro-lead-in h1
+	#coinet-intro .intro-text .intro-lead-in h1
 	{
 		font-size: 48px;
 		font-family: 'Raleway Black', arial;
@@ -79,12 +79,12 @@
 		color: #ffffff;
 	}
 
-	header .intro-text .intro-heading
+	#coinet-intro .intro-text .intro-heading
 	{
 		margin-bottom: 5%;
 	}
 
-	header .intro-text .intro-heading p
+	#coinet-intro .intro-text .intro-heading p
 	{
 		font-size: 16px;
 		line-height: 1.19;
@@ -93,7 +93,7 @@
 		color: #73b1fa;
 	}
 
-	header .intro-text .intro-description p
+	#coinet-intro .intro-text .intro-description p
 	{
 		font-size: 16px;
 		line-height: 1.19;
@@ -104,23 +104,18 @@
 
 	@media (max-width: 992px) 
 	{
-		header 
-		{
-			max-height: 600px;
-		}
-
-		header .intro-text 
+		#coinet-intro .intro-text 
 		{
 			padding-top: 10%;
 			padding-bottom: 15%;
 		}
 
-		header .intro-text .intro-lead-in h1
+		#coinet-intro .intro-text .intro-lead-in h1
 		{
 			font-size: 35px;		
 		}
 
-		header .intro-text .intro-heading 
+		#coinet-intro .intro-text .intro-heading 
 		{
 			text-align: justify;
 			font-size: 20px;
@@ -129,23 +124,18 @@
 
 	@media (max-width: 768px) 
 	{
-		header 
-		{
-			max-height: 500px;
-		}
-
-		header .intro-text 
+		#coinet-intro .intro-text 
 		{
 			padding-top: 100px;
 			padding-bottom: 10%;
 		}
 
-		header .intro-text .intro-lead-in h1
+		#coinet-intro .intro-text .intro-lead-in h1
 		{
 			font-size: 28px;		
 		}
 
-		header .intro-text .intro-heading 
+		#coinet-intro .intro-text .intro-heading 
 		{
 			text-align: justify;
 			font-size: 18px;

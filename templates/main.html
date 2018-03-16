@@ -25,6 +25,8 @@
         <link href="../assets/css/coinet-foundation.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/coinet-contact.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/modal-request.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/modal-services.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/modal-terms.css" rel="stylesheet" type="text/css">
         
         <link href="../assets/css/footer.css" rel="stylesheet" type="text/css">
     </head>
@@ -39,23 +41,23 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
-                    <a class="brand" href="#"> <img class="pull-left icon-nav" src="../assets/img/navbar-header/logo-coinet@3x.png"></a>
+                    <a class="brand js-scroll-trigger" href="#coinet-intro"> <img class="pull-left icon-nav" src="../assets/img/navbar-header/logo-coinet@3x.png"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="js-scroll-trigger" href="#coinet-power"> SERVICIOS </a></li>
                         <li><a class="js-scroll-trigger" href="#coinet-proyects"> PROYECTOS </a></li>
                         <li><a class="js-scroll-trigger" href="#coinet-team"> TEAM </a></li>
-                        <li><a class="js-scroll-trigger" href="#coinet-foundation"> FUNDACIÓN </a></li>
-                        <li><a href="#"> ICO </a></li>
+                        <li><a class="js-scroll-trigger" href="#coinet-4geeks"> FUNDACIÓN </a></li>
+                        <li><a href="coinet-ico-page.html"> ICO </a></li>
                         <li><a href="#"> LOGIN </a></li>
-                        <li><button class="btn-style" style="margin-top: 9px;"> REGISTRO </button></li>
+                        <li><button class="btn-style margin-top-fix" data-toggle="modal" data-target="#modal-request"> REGISTRO </button></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <header>
+        <header id="coinet-intro">
             <div class="container-fluid">
                 <div class="intro-text">
                     <div class="row row-centered margin-bottom-min">
@@ -71,7 +73,7 @@
                                         <p>blockchain contando con mecanismos de financiamiento innovadores (ICO)</p>
                                     </div>
                                     <div class="margin-top-prom">
-                                        <center><button class="btn-style"> SOLICITAR SERVICIO </button></center>
+                                        <center><button class="btn-style" data-toggle="modal" data-target="#modal-request"> SOLICITAR SERVICIO </button></center>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +111,7 @@
 		                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 		                    			<span class="title-article-services">Creación de Contrato Inteligente en la  plataforma de Stellar.</span>
 	                					<hr class="line-article" align="left" width="30%">
-	                					<a href="#"><span class="see-more-link">Ver servicio</span></a>
+	                					<button class="see-more-button" data-toggle="modal" data-target="#modal-service-details"><span class="see-more-link">Ver servicio</span></button>
 		                    		</div>
 		                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
 	                    				<div class="coinet-power-social-media">
@@ -130,7 +132,7 @@
 		                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 		                    			<span class="title-article-services">Desarrollo de proyectos bajo tecnología Blockchain.</span>
 	                					<hr class="line-article" align="left" width="30%">
-	                					<a href="#"><span class="see-more-link">Ver servicio</span></a>
+	                					<button class="see-more-button" data-toggle="modal" data-target="#modal-service-details"><span class="see-more-link">Ver servicio</span></button>
 		                    		</div>
 		                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
 	                    				<div class="coinet-power-social-media">
@@ -153,7 +155,7 @@
 		                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 		                    			<span class="title-article-services">Organizar y desarrollar ICO para la recaudación de fondos.</span>
 	                					<hr class="line-article" align="left" width="30%">
-	                					<a href="#"><span class="see-more-link">Ver servicio</span></a>
+	                					<button class="see-more-button" data-toggle="modal" data-target="#modal-service-details"><span class="see-more-link">Ver servicio</span></button>
 		                    		</div>
 		                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
 	                    				<div class="coinet-power-social-media">
@@ -174,7 +176,7 @@
 		                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 		                    			<span class="title-article-services">Soporte en el área de Marketing y manejo de redes sociales.</span>
 	                					<hr class="line-article" align="left" width="30%">
-	                					<a href="#"><span class="see-more-link">Ver servicio</span></a>
+	                					<button class="see-more-button" data-toggle="modal" data-target="#modal-service-details"><span class="see-more-link">Ver servicio</span></button>
 		                    		</div>
 		                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
 	                    				<div class="coinet-power-social-media">
@@ -197,7 +199,7 @@
 		                    		<div class="col-xs-8 col-md-6 col-centered margin-top-min padding-left-prom">
 		                    			<span class="title-article-services">Asesoría en trading de criptomonedas.</span>
 	                					<hr class="line-article" align="left" width="30%">
-	                					<a href="#"><span class="see-more-link">Ver servicio</span></a>
+	                					<button class="see-more-button" data-toggle="modal" data-target="#modal-service-details"><span class="see-more-link">Ver servicio</span></button>
 		                    		</div>
 		                    		<div class="col-md-1 col-centered hidden-sm hidden-xs">
 	                    				<div class="coinet-power-social-media">
@@ -632,7 +634,7 @@
 				            </div>
 				            <div class="row margin-bottom-min"> 
 				                <div class="col-xs-12">
-				                    <button class="btn-style float-right"> CONDICIONES</button>    
+				                    <button class="btn-style float-right" data-toggle="modal" data-target="#modal-terms-scholarship"> CONDICIONES</button>    
 				                </div>
 				            </div>
 				        </div>
@@ -730,27 +732,266 @@
 								<input class="margin-top-min" type="email" placeholder="E-mail">
 								<label class="modal-label">Teléfono</label>
 								<input class="margin-top-min" type="text" placeholder="Teléfono">
-								<input class="check-box" type="checkbox" name="conditions"><span class="modal-label"> Suscribirme a boletin informativo</span>
+								<label class="container-check hidden-xs">
+									Suscribirme a boletin informativo
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<label class="modal-label">Explique brevemente su proyecto</label>
 								<textarea class="margin-top-min wrapped-input" rows="5" placeholder="Mensaje"></textarea>
+								<label class="container-check hidden-sm hidden-md hidden-lg">
+									Suscribirme a boletin informativo
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
 							</div>
 						</div>
 					</div>
-					<div class="modal-footer">
+					<div class="modal-footer margin-top-min">
 						<div class="row">
-							<div class="col-xs-12 col-sm-9 col-md-10 hidden-xs">
-								<p class="modal-terms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="col-xs-12 col-sm-9 col-md-10 text-align-left">
+								<p class="modal-terms">Al enviar este formulario y los datos del formulario futuro, confirmo que acepto los términos y condiciones, descargos de responsabilidad, cookies, correspondencia por correo electrónico y políticas de privacidad disponibles en <a class="blue-word" href="#">http://coinet.com/nota_legal</a>  y ningún contenido está destinado o se considerará de cualquier manera asesoramiento financiero.</p>
 							</div>
 							<div class="col-xs-12 col-sm-3 col-md-2">
-								<button type="button" class="btn-style btn-lg" data-dismiss="modal">Enviar</button>
+								<button type="button" class="btn-style" data-dismiss="modal">ENVIAR</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="modal fade" id="modal-service-details" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/img/coinet-modals/close.png"></button>
+					</div>
+					<div class="modal-body margin-bottom-prom">
+						<div class="row equal center-vertical-text">
+							<div class="col-md-3 hidden-xs hidden-sm">
+								<center><img src="../assets/img/coinet-power/stellar-img@3x.png" class="img-responsive img-services img-modal-services"></center>
+							</div>
+							<div class="col-xs-offset-1 col-md-offset-0 col-xs-10 col-md-7 modal-container-title">
+								<span class="modal-title margin-bottom-min">CREACIÓN DE CONTRATO INTELIGENTE EN LA  PLATAFORMA DE STELLAR</span>
+								<br>
+								<br>
+							</div>
+						</div>
+						<div class="row margin-top-min">
+							<div class="col-md-3 hidden-xs hidden-sm">
+								<center><img src="../assets/img/coinet-modals/alerta.png" class="img-responsive"></center>
+								<p class="modal-description margin-top-max">Si tienes dudas con respecto a este servicio <span class="modal-description-bold">te brindamos asesoría gratuía</span> para indicarte el mejor camino para tu proyecto.</p>
+								<a class="advisory text-align-center margin-top-max">
+									SOLICITAR ASESORÍA
+								</a>
+							</div>
+							<div class="col-xs-offset-1 col-md-offset-0 col-xs-10 col-md-7">
+								<p class="modal-description">Trabajamos con la plataforma de <span class="modal-description-bold">Stellar para la emisión y distribución de los tokens</span>.  Stellar es una plataforma con una API sencilla de usar, segura, rápida, multi firma, con una <span class="modal-description-bold">blockchain descentralizada que permite realizar contratos inteligentes para la distribución de los tokens y con un muy bajo costo</span>  en las transacciones lo que permite que nuestros clientes no tengan un gran impacto en los costos del servicio.</p>
+							</div>
+							<div class="col-md-1 hidden-xs hidden-sm">
+								<div class="coinet-power-social-media">
+            						<a href="#"><img src="../assets/img/coinet-power/like-ico.png" class="img-responsive"></a>
+            						<p class="margin-top-fix like-grey">12</p>
+                				</div>
+                				<div class="coinet-power-social-media">
+                    				<a href="#"><p><img src="../assets/img/coinet-modals/shape.png" class="img-responsive"></p></a>
+                    			</div>
+							</div>
+							<div class="col-xs-offset-1 col-xs-10 hidden-md hidden-lg">
+								<center><img src="../assets/img/coinet-modals/alerta.png" class="img-responsive"></center>
+								<p class="modal-description margin-top-min">Si tienes dudas con respecto a este servicio <span class="modal-description-bold">te brindamos asesoría gratuía</span> para indicarte el mejor camino para tu proyecto.</p>
+								<a class="advisory text-align-center margin-top-min">
+									SOLICITAR ASESORÍA
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="row">
+							<div class="col-xs-12 text-align-right">
+								<button type="button" class="btn-style" data-toggle="modal" href="#modal-service-request">SOLICITAR</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal modal-child fade" id="modal-service-request" role="dialog" data-modal-parent="#modal-service-details">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-xs-offset-1 col-sm-offset-3 col-xs-10 col-sm-9">
+								<button type="button" class="see-more-button float-left" data-dismiss="modal">
+									<img src="../assets/img/coinet-modals/volver-ico.png">
+									<span class="go-back">VOLVER</span>
+								</button>
+								<button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/img/coinet-modals/close.png"></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body margin-bottom-prom">
+						<div class="row equal center-vertical-text">
+							<div class="col-xs-3 hidden-xs">
+								<center><img src="../assets/img/coinet-power/stellar-img@3x.png" class="img-responsive img-services img-modal-services"></center>
+							</div>
+							<div class="col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-8 modal-container-title">
+								<span class="modal-title">SOLICITUD DE SERVICIO</span>
+								<br>
+								<br>
+							</div>
+						</div>
+						<div class="row margin-top-min">
+							<div class="col-xs-3 hidden-xs">
+								<center><img src="../assets/img/coinet-modals/alerta.png" class="img-responsive margin-top-max"></center>
+								<p class="modal-description margin-top-max">Si tienes dudas con respecto a este servicio <span class="modal-description-bold">te brindamos asesoría gratuía</span> para indicarte el mejor camino para tu proyecto.</p>
+								<a class="advisory text-align-center margin-top-max">
+									SOLICITAR ASESORÍA
+								</a>
+							</div>
+							<div class="col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-8">
+								<label class="modal-label">Nombre Completo</label>
+								<input class="margin-top-min" type="text" placeholder="Nombre y Apellido">
+								<label class="modal-label">E-mail</label>
+								<input class="margin-top-min" type="email" placeholder="E-mail">
+								<label class="modal-label">Teléfono</label>
+								<input class="margin-top-min" type="text" placeholder="Teléfono">
+								<label class="container-check hidden-xs">
+									Suscribirme a boletin informativo
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+							</div>
+							<div class="col-xs-offset-1 col-xs-10 hidden-sm hidden-md hidden-lg">
+								<center><img src="../assets/img/coinet-modals/alerta.png" class="img-responsive"></center>
+								<p class="modal-description margin-top-min">Si tienes dudas con respecto a este servicio <span class="modal-description-bold">te brindamos asesoría gratuía</span> para indicarte el mejor camino para tu proyecto.</p>
+								<a class="advisory text-align-center margin-top-min">
+									SOLICITAR ASESORÍA
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="row">
+							<div class="col-xs-offset-1 col-md-offset-3 col-xs-10 col-md-6 text-align-left">
+								<p class="modal-terms">Al enviar este formulario y los datos del formulario futuro, confirmo que acepto los términos y condiciones, descargos de responsabilidad, cookies, correspondencia por correo electrónico y políticas de privacidad disponibles en <a class="blue-word" href="#">http://coinet.com/nota_legal</a>  y ningún contenido está destinado o se considerará de cualquier manera asesoramiento financiero.</p>
+							</div>
+							<div class="col-xs-offset-1 col-xs-10 col-md-2">
+								<button type="button" class="btn-style">ENVIAR</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modal-terms-scholarship" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body body-terms-padding">
+                        <div class="row equal center-vertical-text">
+                            <div class="col-md-4 hidden-xs hidden-sm">
+                                <div class="text-container-over-behind">
+                                    <img src="../assets/img/coinet-modals/banner@3x.png" class="width-100">
+                                    <div class="text-container-hover text-container-hover-image">
+                                        <img src="../assets/img/coinet-modals/logo.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-offset-1 col-md-offset-0 col-xs-10 col-md-6 modal-container-titles">
+                                <div class="text-container-over-behind">
+                                    <span class="modal-title margin-bottom-min">SOLICITUD DE BECA-ESTUDIO PARA PROGRAMACIÓN Y TECNOLOGÍA BLOCKCHAIN</span>
+                                    <div class="text-container-hover text-container-hover-close">
+                                         <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/img/coinet-modals/close.png"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row margin-top-min" >
+                            <div class="col-md-4 hidden-xs hidden-sm padding-left-fix">
+                                <p class="modal-description margin-top-max margin-bottom-max">CONDICIONES PARA OPTAR POR BECA:</p>
+                                <div class="row">
+                                    <div class="col-xs-2 padding-right-0">
+                                        <div class="circle-number">1</div>
+                                    </div>
+                                    <div class="col-xs-10 padding-left-0">
+                                        <p class="modal-description">Ser estudiante de alguna universidad pública.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-2 padding-right-0">
+                                        <div class="circle-number">2</div>
+                                    </div>
+                                    <div class="col-xs-10 padding-left-0">
+                                        <p class="modal-description">Cursar 3er semestre en las siguentes materias: Matemática, Ing.  Electrónica, Ing. Computación.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-2 padding-right-0">
+                                        <div class="circle-number">3</div>
+                                    </div>
+                                    <div class="col-xs-10 padding-left-0">
+                                        <p class="modal-description">Enviar por correo electrónico todos los recaudos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-offset-1 col-md-offset-0 col-xs-10 col-md-7">
+                                <p class="modal-description margin-bottom-prom">En COINET creemos que la tecnología BLOCKCHAIN es la base para solucionar grandes problemas de la sociedad. Es por ello que impulsamos el conocimiento público a través de una beca de estudio para asistir a cursos, seminarios y eventos, dirigidos a todo aquel que desee adquirir conocimientos e incorporarse a la revolución que esta tecnología ofrece como pilar para acceder a un futuro descentralizado.</p>
+                                <p class="modal-description margin-bottom-prom">Si quieres optar por una beca de desarrollo por 4 meses en 4Geeks Academy y un curso online para programadores sobre Blockchain solo debes consignar y enviar al correo  electrónico <span class="blue-word">beca_estudio@coinet.com</span> los siguientes documentos:</p>
+                                <p class="modal-description">{Digital de carnet estudiantel} {Digital cédula de identidad}</p>
+                            </div>
+                            <div class="col-md-1 hidden-xs hidden-sm">
+                                <div class="coinet-power-social-media">
+                                    <center><a href="#"><img src="../assets/img/coinet-power/like-ico.png" class="img-responsive"></a></center>
+                                    <center><p class="margin-top-fix like-grey">12</p></center>
+                                </div>
+                                <div class="coinet-power-social-media">
+                                    <center><a href="#"><p><img src="../assets/img/coinet-modals/shape.png" class="img-responsive"></p></a></center>
+                                </div>
+                            </div>
+                            <div class="col-xs-offset-1 col-xs-10 hidden-md hidden-lg">
+                                <p class="modal-description margin-top-prom margin-bottom-prom">CONDICIONES PARA OPTAR POR BECA:</p>
+                                <div class="row">
+                                    <div class="col-xs-2 padding-right-0">
+                                        <div class="circle-number">1</div>
+                                    </div>
+                                    <div class="col-xs-10 padding-left-0">
+                                        <p class="modal-description">Ser estudiante de alguna universidad pública.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-2 padding-right-0">
+                                        <div class="circle-number">2</div>
+                                    </div>
+                                    <div class="col-xs-10 padding-left-0">
+                                        <p class="modal-description">Cursar 3er semestre en las siguentes materias: Matemática, Ing.  Electrónica, Ing. Computación.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-2 padding-right-0">
+                                        <div class="circle-number">3</div>
+                                    </div>
+                                    <div class="col-xs-10 padding-left-0">
+                                        <p class="modal-description">Enviar por correo electrónico todos los recaudos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-md-offset-4 col-xs-10 col-md-7 text-align-left">
+                                <p class="modal-terms">Al enviar este formulario y los datos del formulario futuro, confirmo que acepto los términos y condiciones, descargos de responsabilidad, cookies, correspondencia por correo electrónico y políticas de privacidad disponibles en <a class="blue-word" href="#">http://coinet.com/nota_legal</a>  y ningún contenido está destinado o se considerará de cualquier manera asesoramiento financiero.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="footer">
           <div class="container margin-top-prom margin-bottom-prom">

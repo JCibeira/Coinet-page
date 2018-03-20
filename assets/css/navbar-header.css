@@ -32,9 +32,36 @@
 		background-color: #062831;
 	}
 
+	.dropdown > a
+	{
+		cursor: pointer;
+	}
+
+	.dropdown > a:focus
+	{
+		background-image: linear-gradient(to bottom, #043848, #383838);
+	}
+
+	ul.dropdown-menu
+	{
+		background-image: linear-gradient(to bottom, #043848, #383838);
+	}
+
+	ul.dropdown-menu > li > a 
+	{
+		color: #ffffff;
+	}
+
+	ul.dropdown-menu > li > a:hover 
+	{
+		color: #ffffff;
+		background-color: #062831;
+		cursor: pointer;
+	}
+
 	.icon-nav
 	{
-		max-width: 97px; 
+		max-width: 97px;
 		margin-top: 12px;
 	}
 
@@ -141,5 +168,4 @@
 			font-size: 18px;
 		}
 	}
-
 /* end header styles */

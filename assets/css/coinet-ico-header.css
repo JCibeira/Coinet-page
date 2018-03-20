@@ -10,6 +10,19 @@
         padding-top: 50px;
     }
 
+    .progress 
+    {
+        background: rgba(245, 245, 245, 1); 
+        border: 1px solid #323131; 
+        border-radius: 12px; 
+        height: 10px;
+    }
+
+    .progress-bar-custom 
+    {
+        background: rgba(66, 139, 202, 1);
+    }
+
     .stellar-ico
     {
         width: 42px;
